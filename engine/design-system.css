@@ -1,0 +1,72 @@
+/* .....................................
+
+html fix
+
+..................................... */
+body, html{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+/* .....................................
+
+Vertical Spaces
+
+..................................... */
+.clearx{ height: 100vh !important; }
+.clear10x{  height: 10px !important; }
+.clear20x{  height: 20px !important; }
+.clear30x{  height: 30px !important; }
+.clear40x{  height: 40px !important; }
+.clear50x{  height: 50px !important; }
+.clear60x{  height: 60px !important; }
+.clear70x{  height: 70px !important; }
+.clear80x{  height: 80px !important; }
+.clear90x{  height: 90px !important; }
+.clear100x{ height: 100px !important; }
+
+/* .....................................
+
+Headers
+
+..................................... */
+h1{ font-size: 50px; }
+h2{ font-size: 40px; }
+
+/* .....................................
+
+Text styles
+
+..................................... */
+.digitalfont{ font-size: 10px; font-weight: 500 !important; text-transform: uppercase; }
+.fine{ font-weight: 200 !important; }
+.justify{ text-align: justify !important; }
+.super{ font-size: 60px !important; letter-spacing: 10px; }
+.goodtext{ font-size: 14px; letter-spacing: 1px; line-height: 1;}
+
+/* .....................................
+
+Grids
+
+..................................... */
+.grid2-fixed{ display: grid; grid-template-columns: 50% 50%; }
+.grid3-fixed{ display: grid; grid-template-columns: 33.3% 33.3% 33.3%; }
+
+.grid2-leftbox{ display: grid; grid-template-columns: 70% 30%; }
+
+@media (orientation: portrait){
+    .grid2-fixed{ grid-template-columns: auto; }
+    .grid3-fixed{ grid-template-columns: auto; }
+    .grid2-leftbox{ grid-template-columns: auto; }
+}
+
+/* .....................................
+
+Sections
+
+..................................... */
+.section-classic{ padding: 40px; }
